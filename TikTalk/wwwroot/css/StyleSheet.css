@@ -1,0 +1,143 @@
+﻿body {
+    /* background-image: url('background.jpg'); */
+    background-color: #617a74;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Verdana, sans-serif;
+}
+
+.main-block {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding: 2% 2% 4% 4%;
+    background: #DEDEDE;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+}
+
+.col-md-4 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errorMessege {
+    color: #a32236;
+    font-size: 12px;
+    margin-top: 5px
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h1 {
+    padding: 10px 0;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    font-weight: bold;
+    color: #3a4946
+}
+
+
+.form-text {
+    color: #3a4946
+}
+
+.btn {
+    font-size: 12px;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #445551 !important;
+    border-color: #445551 !important;
+}
+
+    .btn-primary:hover {
+        background-color: #3a4946 !important;
+        border-color: #3a4946 !important;
+    }
+
+
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid rgb(240, 237, 237);
+}
+
+
+.searchChat {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #DEDEDE;
+    padding: 6px;
+    height: 38px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+
+.time {
+    font-size: 0.65em;
+    color: #aaa;
+}
+
+
+.btn-success,
+.btn-success:active,
+.btn-success:visited {
+    background: #93af9c !important;
+    border-color: #93af9c !important;
+    font-size: 15px;
+}
+
+    .btn-success:hover {
+        background-color: #81a28b !important;
+        border-color: #81a28b !important;
+    }
+
+.btn-danger,
+.btn-danger:active,
+.btn-danger:visited {
+    background: #b56660 !important;
+    border-color: #b56660 !important;
+    width: 70px;
+}
+        .btn-danger:hover {
+            background-color: #a35d58 !important;
+            border-color: #a35d58 !important;
+        }
+
+#average {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.save {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
