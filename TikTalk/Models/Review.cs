@@ -14,9 +14,6 @@ namespace TikTalk.Models
         [Range(1, 5, ErrorMessage = "Range must be between 1 and 5")]
         public int Rate { get; set; }
 
-        public string Feedback { get; set; }
-
-        //time
-
+        public string Feedback { get; set; }        
     }
 }
