@@ -33,15 +33,6 @@ namespace TikTalk.Controllers
             return Json(await q.ToListAsync());
         }
 
-        public async Task<IActionResult> Search2(string query)
-        {
-            var q = from review in _context.Review
-                    where review.Name.Contains(query) || review.Feedback.Contains(query)
-                    select review;
-
-            return PartialView(await q.ToListAsync());
-        }
-
         public async Task<IActionResult> Search()
         {
             return View(await _context.Review.ToListAsync());
@@ -57,13 +48,6 @@ namespace TikTalk.Controllers
 
             return View(await q.ToListAsync());
         }
-
-
-
-
-
- 
-       
 
 
         // GET: Reviews/Details/5
@@ -101,7 +85,7 @@ namespace TikTalk.Controllers
             {
                 _context.Add(review);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Search));
             }
             return View(review);
         }
@@ -152,7 +136,7 @@ namespace TikTalk.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Search));
             }
             return View(review);
         }
@@ -191,7 +175,7 @@ namespace TikTalk.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Search));
         }
 
         private bool ReviewExists(int id)

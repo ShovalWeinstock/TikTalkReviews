@@ -1,6 +1,6 @@
 ﻿body {
     /* background-image: url('background.jpg'); */
-    background-color: #617a74;
+    background-color: #445551;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -92,11 +92,13 @@ input {
     width: 100%;
     outline: none;
     border: none;
-    background: #DEDEDE;
+    background: #F5F5F5;
     padding: 6px;
     height: 38px;
     border-radius: 30px;
     padding-left: 20px;
+    width: 50%;
+    margin-bottom: 10px;
 }
 
 
@@ -141,3 +143,7 @@ input {
     margin-bottom: 10px;
 }
 
+#searchBtn {
+    width: 70px;
+    text-align: center;
+}
