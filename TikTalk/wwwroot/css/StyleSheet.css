@@ -127,6 +127,9 @@ input {
     background: #b56660 !important;
     border-color: #b56660 !important;
     width: 70px;
+    margin: 0 0 0;
+    height: 32px;
+
 }
         .btn-danger:hover {
             background-color: #a35d58 !important;
