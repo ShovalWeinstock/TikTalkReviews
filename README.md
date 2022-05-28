@@ -15,7 +15,7 @@ In order to run the project:
    
    (The server is localhost:5051. it is hard coded in the client side)
    
-2. Open and run TikTalkReviews:
+2. Open and run TikTalkReviews (http://localhost:5102/):
    
    https://github.com/ShovalWeinstock/TikTalkReviews
 
