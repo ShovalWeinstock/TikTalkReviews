@@ -13,7 +13,7 @@ In order to run the project:
    
    https://github.com/itamar-st/TikTalkServer
    
-   (The server is port localhost:5051. it is hard coded in the client side)
+   (The server is localhost:5051. it is hard coded in the client side)
    
 2. Open and run TikTalkReviews:
    
