@@ -6,6 +6,10 @@ Shoval Weinstok 209540731
 
 Itamar Shachen Tov 207497769
 
+<img width="958" alt="צילום מסך 2022-10-30 185733" src="https://user-images.githubusercontent.com/92527489/198891260-dc04ed36-fe0c-47a2-9273-d9fc67af3b9b.png">
+
+<img width="957" alt="צילום מסך 2022-10-30 185750" src="https://user-images.githubusercontent.com/92527489/198891262-e413a880-44d4-4a6b-9d64-1fa4518ecd56.png">
+
 
 In order to run the project:
 
