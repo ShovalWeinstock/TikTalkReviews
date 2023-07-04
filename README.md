@@ -2,9 +2,9 @@
 
 Authors:
 
-Shoval Weinstok 209540731
+Shoval Weinstok
 
-Itamar Shachen Tov 207497769
+Itamar Shachen Tov
 
 <img width="958" alt="צילום מסך 2022-10-30 185733" src="https://user-images.githubusercontent.com/92527489/198891260-dc04ed36-fe0c-47a2-9273-d9fc67af3b9b.png">
 
